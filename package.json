@@ -1,0 +1,39 @@
+{
+  "name": "usersystem_mvc",
+  "version": "1.0.0",
+  "description": "User system with registration and login features based on my implementation MVC design pattern written in NodeJS and Express framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azecdev90/usersystem_mvc.git"
+  },
+  "keywords": [
+    "Express",
+    "NodeJS",
+    "MongoDb",
+    "MVC"
+  ],
+  "author": "Amir Zec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azecdev90/usersystem_mvc/issues"
+  },
+  "homepage": "https://github.com/azecdev90/usersystem_mvc#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.4.0",
+    "helmet": "^3.21.2",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.8.11"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}

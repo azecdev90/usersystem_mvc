@@ -1,0 +1,22 @@
+<html>
+<head>
+<title> Login </title>
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+  <% if(locals.errors) { %>
+  <% for (let i = 0; i < errors.length; i++) { %>
+      <article class="item">
+          <div><%= errors[i].msg %></div>
+
+  <% } %>
+  <% } %>
+<h1> Register user </h1>
+<form action="/user/register" method="POST">
+Username:<input type="text" name="username"></br>
+Email:<input type="text" name="email"></br>
+Password:<input type="password" name="password"></br>
+<input type="submit" name="submit" value="Register">
+</form>
+</body>
+</html>
