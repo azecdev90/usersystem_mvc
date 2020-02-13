@@ -1,7 +1,7 @@
 ![NODEJS](https://user-images.githubusercontent.com/58860019/74439780-20fbdc00-4e6d-11ea-9a92-8864d8344db9.jpeg)
 
 # UserSystem_MVC
-This is user and login system based on Javascript technology. This software is my implementation MVC design pattern with simple functionality for users. Goal of MVC architecture is to divide software in separatem but interconnected parts. Also basic security implementation is part of this software.
+This is user and login system based on Javascript technology. This software is my implementation MVC design pattern with simple functionality for users. Goal of MVC architecture is to divide software in separate but interconnected parts. Also basic security implementation is part of this software.
 
 ##
 1. [Architecture](#architecture)
